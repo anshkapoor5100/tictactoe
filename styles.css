@@ -99,7 +99,7 @@
 }
 
 @media(max-width:600){
-    .new-game{
+    .new-game.active{
         bottom: 7rem;
         
     }
