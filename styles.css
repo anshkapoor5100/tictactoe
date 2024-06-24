@@ -97,3 +97,10 @@
 .green{
     background-color: rgba(2, 172, 13, 0.5);
 }
+
+@media(max-width:600){
+    .new-game{
+        bottom: 7rem;
+        
+    }
+}
