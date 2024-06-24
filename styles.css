@@ -87,7 +87,7 @@
     visibility: hidden;
     cursor: pointer;
     position: absolute;
-    bottom: 3rem;
+    bottom: 7rem;
     
 }
 .new-game.active{
@@ -97,7 +97,6 @@
 .green{
     background-color: rgba(2, 172, 13, 0.5);
 }
-
 @media(max-width:600){
     .new-game.active{
         bottom: 7rem;
