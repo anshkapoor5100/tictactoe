@@ -113,6 +113,19 @@ function check(){
                 player.innerText = `Winner Player - ${temp.innerText}`;
             }
     }
+
+    if(newGameCheck()){
+        let checkdraw = true;
+        value.forEach(function (v){
+            if(v.innerText==""){
+                checkdraw = false;
+            }
+        })
+        if(checkdraw){
+            player.innerText = "Game Tied !"
+            newGame.classList.add("active");
+        }
+    }
     
     }
 
