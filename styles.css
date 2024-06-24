@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+}
+.wrapper{
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #000000, #212121, #3d3c3c, #5a5a5a, #7a7979);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    padding: 3rem 0;
+    overflow: auto;
+    position: relative;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 0.5rem 3rem;
+    text-align: center;
+    font-size: large;
+}
+.main{
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    border: 1px solid white;
+    height: calc(100%/3);
+    font-size: xx-large;
+    cursor: pointer;
+    /* border-collapse: collapse; */
+}
+.div00{
+    border-top: 0;
+    border-left: 0;
+}
+.div01{
+    border-top: 0;
+}
+.div02{
+    border-top: 0;
+    border-right: 0;
+}
+.div10{
+    border-left: 0;
+}
+.div12{
+    border-right: 0;
+}
+.div20{
+    border-left: 0;
+    border-bottom: 0;
+}
+.div22{
+    border-right: 0;
+    border-bottom: 0;
+}
+.div21{
+    border-bottom: 0;
+}
+
+.new-game{
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3rem;
+    
+}
+.new-game.active{
+    visibility:visible;
+}
+
+.green{
+    background-color: rgba(2, 172, 13, 0.5);
+}
